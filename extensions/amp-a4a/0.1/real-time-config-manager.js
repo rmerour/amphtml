@@ -106,7 +106,6 @@ export class RealTimeConfigManager {
     return this.urlReplacements_ ||
         (this.urlReplacements_ = Services.urlReplacementsForDoc(
             this.a4aElement_.getAmpDoc()));
-
   }
 
   /**
